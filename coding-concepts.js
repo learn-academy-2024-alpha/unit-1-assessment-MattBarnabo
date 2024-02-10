@@ -44,12 +44,12 @@ const weekendDays = ["saturday", "sunday"]
 // console.log(weekendDays.toUpperCase())
 
 // a) Your answer: This will log SATURDAY, SUNDAY to the console
-// b) Verify and explain: this resulted in a TypeError which means .toUpperCase cannot be used on an array, even if the values inside the array are strings. Without first calling on the index of the value you want to change to all upper case letters. Or without using .join(" ") to convert the array into a string first.
+// b) Verify and explain: This resulted in a TypeError which means .toUpperCase cannot be used on an array, even if the values inside the array are strings. Without first calling on the index of the value you want to change to all upper case letters. Or without using .join(" ") to convert the array into a string first.
 
 // --------------------5) What will this log?
 
 const dataTypes = ["number", "string", "Boolean", "undefined"]
-// console.log(typeof dataTypes.length)
+console.log(typeof dataTypes.length)
 
 // a) Your answer: This will log "string" 4 times to the console or result in an error 
 // b) Verify and explain: This resulted in the result "number". Instead of looking at the type of data in the array which would result in the answer being string. This asked for the data type of the length of the array which returned a number. Since the length of the array called dataTypes is 4. It returned the type of data that the length would be counted in.
